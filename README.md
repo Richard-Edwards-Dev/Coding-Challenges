@@ -1,1 +1,1 @@
-# A repository of codewars solutions
+# A repository of coding challlenge solutions
