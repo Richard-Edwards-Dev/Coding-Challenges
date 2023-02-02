@@ -1,6 +1,6 @@
 function capitalize(s){
     let result = ['','']
-    let word = s.split('').forEach((letter,index)=>{
+    s.split('').forEach((letter,index)=>{
       if(index % 2 === 0){
         result[0] += letter.toUpperCase()
         result[1] += letter
