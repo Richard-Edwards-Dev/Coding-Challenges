@@ -2,7 +2,7 @@ function findOutlier(integers){
     let odds = []
     let evens = []
     for(let number of integers) {
-      number % 2 === 0 ? odds.push(number) : evens.push(number)
+      number % 2 === 0 ? evens.push(number) : odds.push(number)
       if((odds.length + evens.length > 2) && (odds.length && evens.length)){
         break;
       }
