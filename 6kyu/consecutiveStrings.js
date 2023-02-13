@@ -11,3 +11,5 @@ function longestConsec(strarr, k) {
     })
   return k > 0 && k <= strarr.length ? strarr.slice(largestIndex, largestIndex + k).join('') : ''
 }
+
+//https://www.codewars.com/kata/56a5d994ac971f1ac500003e/train/javascript
