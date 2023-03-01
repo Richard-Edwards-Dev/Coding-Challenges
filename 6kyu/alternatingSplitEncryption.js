@@ -18,8 +18,8 @@ function encrypt(text, n) {
   }
   
   function decrypt(encryptedText, n) {
-      if(!n || !encryptedText) return encryptedText
-      let result = encryptedText
+    if(!n || !encryptedText) return encryptedText
+    let result = encryptedText
     for(let i = 1; i <= n; i++){ 
       let start = result.slice(0,Math.floor(encryptedText.length/2)).split('')
       let end = result.slice(Math.floor(encryptedText.length/2)).split('')
