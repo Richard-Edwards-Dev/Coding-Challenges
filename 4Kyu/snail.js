@@ -9,12 +9,13 @@ snail = function(array) {
       if(array.length > 0){
       let last = array.pop()
       result.push(last.reverse())
+      }
       if(array.length > 0){
         let temp = []
         array.forEach(a => temp.push(a.shift()))
         result.push(temp.reverse())
       }
-  }
+      
     }
     return result.flat()
   }
